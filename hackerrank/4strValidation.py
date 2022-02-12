@@ -5,7 +5,7 @@ In the third line, print True if  has any digits. Otherwise, print False.
 In the fourth line, print True if  has any lowercase characters. Otherwise, print False.
 In the fifth line, print True if  has any uppercase characters. Otherwise, print False
 """
-
+ 
 if __name__ == '__main__':
     s = input()
     print(any (l.isalnum() for l in s))
