@@ -14,9 +14,9 @@ False
 str.isalpha()
 This method checks if all the characters of a string are alphabetical (a-z and A-Z).
 
->>> print 'abcD'.isalpha()
+''' print 'abcD'.isalpha()
 True
->>> print 'abcd1'.isalpha()
+''' print 'abcd1'.isalpha()
 False
 
 str.isdigit()
