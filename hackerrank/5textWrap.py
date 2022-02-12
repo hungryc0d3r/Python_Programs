@@ -2,6 +2,7 @@
 given a string s and width w.
 task is to wrap the string into a paragraph of width w.
 """
+# importing textwrap module
 import textwrap
 
 def wrap(string, max_width):
